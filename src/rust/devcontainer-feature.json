@@ -1,6 +1,7 @@
 {
 	"name": "Rust",
 	"id": "rust",
+	"version": "1",
 	"description": "Rust development environment with Kaylen's dotfiles.",
 	"installsAfter": [
 		"ghcr.io/devcontainers/features/rust:1",

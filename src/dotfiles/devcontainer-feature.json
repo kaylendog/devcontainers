@@ -1,8 +1,8 @@
 {
 	"name": "dotfiles",
 	"id": "dotfiles",
-	"description": "Kaylen's dotfiles for development using devcontainers.",
 	"version": "1",
+	"description": "Kaylen's dotfiles for development using devcontainers.",
 	"installsAfter": [
 		"ghcr.io/devcontainers/features/github-cli:1",
 		"ghcr.io/devcontainers/features/git-lfs:1",
