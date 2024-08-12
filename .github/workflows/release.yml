@@ -1,3 +1,5 @@
+name: Release devcontainer features
+
 on:
     push:
         branches: main
