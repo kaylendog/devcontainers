@@ -1,5 +1,6 @@
 {
 	"name": "dotfiles",
+	"id": "dotfiles",
 	"description": "Kaylen's dotfiles for development using devcontainers.",
 	"version": "1",
 	"installsAfter": [
