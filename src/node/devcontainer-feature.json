@@ -1,7 +1,7 @@
 {
 	"name": "Node",
 	"id": "node",
-	"version": "1",
+	"version": "0.1.0",
 	"description": "Javascript development environment with Kaylen's dotfiles.",
 	"installsAfter": [
 		"ghcr.io/devcontainers/features/node:1",
