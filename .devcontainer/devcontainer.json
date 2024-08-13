@@ -1,6 +1,0 @@
-{
-	"image": "ubuntu:24.10",
-	"features": {
-		"ghcr.io/kaylendog/devcontainers/rust": {}
-	}
-}

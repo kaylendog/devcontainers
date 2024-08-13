@@ -1,0 +1,6 @@
+{
+	"id": "node",
+	"version": "0.1.0",
+	"name": "Node",
+	"description": "Template development container for Node, with Kaylen's dotfiles."
+}

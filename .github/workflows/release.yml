@@ -17,8 +17,15 @@ jobs:
                   registry: ghcr.io
                   username: ${{ github.actor }}
                   password: ${{ secrets.GITHUB_TOKEN }}
-            - uses: devcontainers/action@v1
+            - name: Publish devcontainer features
+              uses: devcontainers/action@v1
               with:
                   publish-features: "true"
-                  base-path-to-features: "./src"
+                  base-path-to-features: "./features"
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - name: Publish devcontainer templates
+              uses: devcontainers/action@v1
+              with:
+                  publish-templates: "true"
+                  base-path-to-templates: "./templates"
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
