@@ -1,8 +1,8 @@
 {
 	"name": "Rust",
-	"image": "mcr.microsoft.com/devcontainers/base:noble",
+	"image": "mcr.microsoft.com/devcontainers/rust:1-1-${templateOption:imageVariant}",
 	"features": {
 		"ghcr.io/devcontainers/features/rust:0": {},
-		"ghcr.io/kaylendog/devcontainers/dotfiles:0": {}
+		"ghcr.io/kaylendog/devcontainers/feature-dotfiles:0": {}
 	}
 }

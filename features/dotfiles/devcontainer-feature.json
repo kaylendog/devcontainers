@@ -1,13 +1,13 @@
 {
-	"name": "dotfiles",
-	"id": "dotfiles",
+	"name": "Dotfiles",
+	"id": "feature-dotfiles",
 	"version": "0.1.0",
 	"description": "Kaylen's dotfiles for development using devcontainers.",
-	"installsAfter": [
-		"ghcr.io/devcontainers/features/github-cli:1",
-		"ghcr.io/devcontainers/features/git-lfs:1",
-		"ghcr.io/devcontainers/features/git:1",
-		"ghcr.io/devcontainers/features/docker-outside-of-docker:1",
-		"ghcr.io/nils-geistmann/devcontainers-features/zsh:0"
-	]
+	"dependsOn": {
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/git-lfs:1": {},
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+		"ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {}
+	}
 }

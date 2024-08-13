@@ -22,12 +22,10 @@ jobs:
               with:
                   publish-features: "true"
                   base-path-to-features: "./features"
-                  features-namespace: "devcontainers/feature-"
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             - name: Publish devcontainer templates
               uses: devcontainers/action@v1
               with:
                   publish-templates: "true"
                   base-path-to-templates: "./templates"
-                  templates-namespace: "devcontainers/template-"
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

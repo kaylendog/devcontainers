@@ -1,0 +1,7 @@
+{
+	"name": "Typescript & Node",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-${templateOption:imageVariant}",
+	"features": {
+		"ghcr.io/kaylendog/devcontainers/feature-dotfiles:0": {}
+	}
+}
