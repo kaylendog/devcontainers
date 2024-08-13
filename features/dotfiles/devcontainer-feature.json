@@ -1,6 +1,6 @@
 {
 	"name": "Dotfiles",
-	"id": "feature-dotfiles",
+	"id": "dotfiles",
 	"version": "0.1.0",
 	"description": "Kaylen's dotfiles for development using devcontainers.",
 	"dependsOn": {
@@ -9,5 +9,6 @@
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
 		"ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {}
-	}
+	},
+	"updateContentCommand": "cd ~/.zsh && git pull"
 }
